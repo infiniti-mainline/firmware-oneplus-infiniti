@@ -1,0 +1,18 @@
+{
+    "config":{
+        "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
+        "soc_id": ["660", "661"]
+    },
+    "pedometer_minute_platform":{
+        "owner": "pedometer_minute",
+        ".cal_sensor_config":{
+            "owner": "pedometer_minute",
+            "sup_gyro_cal_on":{ "type": "int", "ver": "0",
+                "data": "1"
+            },
+            "sup_mag_cal_on":{ "type": "int", "ver": "0",
+                "data": "1"
+            }
+        }
+    }
+}

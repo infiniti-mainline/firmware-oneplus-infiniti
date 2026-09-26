@@ -1,0 +1,13 @@
+{
+  "config":{
+  },
+  "oplus_rotation_commom":{
+    "owner": "oplus_rotation",
+    ".config":{
+      "owner": "oplus_rotation",
+      "is_available":{ "type": "int", "ver": "0",
+        "data": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "config": {
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD"],
+    "soc_id": ["618", "639", "660", "661"]
+  },
+  "qsh_camera_s5kjn5_3_actuator":{
+    "owner": "qsh_camera_s5kjn5_3_actuator",
+    ".bus_info":{
+    "owner": "qsh_camera_s5kjn5_3_actuator",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0",
+        "comments": "Communication mode of primary bus as per COM port api. Supports : 0 - i2c; 1 - spi; 3 - i3c_sdr; 4 - i3c_hdr_ddr; 5 - i3c_i2c_legacy"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+          "data": "2",
+          "comments": "Custom bus instance to be used for primary communication with sensor"
+      },
+      "qup_instance":{ "type": "int", "ver": "0",
+        "data": "2",
+        "comments": "SSC QUP instance to be used for primary communication with sensor"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "14",
+        "comments": "Slave config for the actuator line. Only non-zero slave cfg will get registered with COM port api. Value here is right-shifted by 1, w.r.t sensor xml"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "1000",
+        "comments": "Min communication speed supported by bus"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "1000",
+        "comments": "Max communication speed supported by bus"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0",
+        "comments": "Type of reg address used in communication; 0,1,2 values represent 8,16,32 bit as per COM port api"
+      },
+      "burst_support":{ "type": "int", "ver": "0",
+        "data": "1",
+        "comments": "Whether or not actuator supports burst data writes, ie, transferring data to write into multiple contiguous registers"
+      }
+    },
+    ".sensor_pwr_rail_info":{
+      "comments": "LDO information required for the ASC actuator, reflecting those in PMIC driver and CamX xml",
+      "owner": "qsh_camera_s5kjn5_3_actuator",
+      ".vaf": {
+        "comments": "As per vaf subsection in camx xml",
+        "owner": "qsh_camera_jn5_3_actuator",
+        "resource_str": {"type": "str", "ver": "0",
+          "data": "L7M_E1",
+          "comments": "LDO string identifier, e.g. '/pmic/client/aoc_avdd' if using legacy PAM style, or 'L4M_E1' if using new direct device voting style"
+        },
+        "voltage": {"type": "int", "ver": "0",
+          "data": "2800",
+          "comments": "Voltage for the power rail in mV (applicable only for new direct device voting style)"
+        },
+        "ldo_pin_value_to_pwr_on": {"type": "int", "ver": "0",
+          "data": "1",
+          "comments": "Actuator is toggled on when the pin value matches given value"
+        },
+        ".ldo_pin":{
+          "comments": "Pin info for LDO. If an external LDO is used by OEMs, they can put corresponding pin information (in same structure as GPIO pins) to drive the LDO",
+          "owner": "qsh_camera_s5kjn5_3_actuator",
+          "pin_num": {"type": "int", "ver": "0",
+            "data": "-1",
+            "comments": "GPIO pin number where FW should toggle to control the LDO; set as -1 if PMIC is used instead of external LDO"
+          },
+          "is_chip_pin": {"type": "int", "ver": "0",
+            "data": "0",
+            "comments": "Whether the client is to be handled by TLMM (mux) or LPI; If using SSC GPIO pin no. instead of MSM pin no., is_chip_pin should be 0"
+          },
+          "drive_strength": {"type": "int", "ver": "0",
+            "data": "0",
+            "comments": "Drive strength supported by the LDO pin; Range 0-7 indicating 2,4,6,...,16mA"
+          },
+          "pull_type": {"type": "int", "ver": "0",
+            "data": "3",
+            "comments": "Pull-type of the LDO pin; Range 0-3 indicating no-pull, pull-down, pull-keep, pull-up"
+          },
+          "irq_trigger_type": {"type": "int", "ver": "0",
+            "data": "0",
+            "comments": "Type of associated IRQ trigger, Range 0-4 indicating rising-edge, falling-edge, dual-edge, high-level, low-level"
+          }
+        }
+      }
+    },
+    ".misc_params":{
+      "comments": "Miscellanous params to control actuator operation",
+      "owner": "qsh_camera_s5kjn5_3_actuator",
+      "settling_time_ms":{"type": "int", "ver": "0",
+        "data": "40",
+        "comments": "How long to wait (in milliseconds) for the sensor actuator to settle down, before streaming on sensor"
+      },
+      "remote_pwr_toggle_needed":{"type": "int", "ver": "0",
+        "data": "0",
+        "comments": "Indicates the power rail for the actuator cannot be controlled from DSP and thus requires HLOS to remotely toggle on DSP's behalf"
+      },
+      "num_actuator_steps":{"type": "int", "ver": "0",
+        "data": "6",
+        "comments": "Number of steps for actuator to converge"
+      }
+    }
+  }
+}

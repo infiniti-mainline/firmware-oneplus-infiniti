@@ -1,0 +1,36 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
+    "soc_id": ["660", "661"]
+  },
+  "sns_mag_fusion":{
+    "owner": "mag_fusion",
+    ".config":{
+      "owner": "mag_fusion_v2",
+      "is_available":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "sup_vendor_fusion":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "fold_feature":{ "type": "int", "ver": "0",
+        "data": "0"
+      }
+    },
+    ".bias":{
+      "owner": "mag_fusion",
+      "accuracy":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bias_0":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "bias_1":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "bias_2":{ "type": "flt", "ver": "0",
+        "data": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+    "config":{
+        "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
+        "soc_id": ["660", "661"]
+    },
+    "oplus_gyro_cal_0_platform":{
+        "owner": "oplus_gyro_cal",
+        ".config":{
+            "owner": "oplus_gyro_cal",
+            "is_available":{ "type": "int", "ver": "0",
+                "data": "1"
+            },
+            "sup_acc":{ "type": "int", "ver": "0",
+                "data": "1"
+            },
+            "window_time_duration":{ "type": "int", "ver": "1",
+                "data": "3000"
+            },
+            "acc_min_samlpe_count":{ "type": "int", "ver": "1",
+                "data": "60"
+            },
+            "acc_mean_threshold":{ "type": "flt", "ver": "0",
+                "data": "10.0"
+            },
+            "acc_var_threshold":{ "type": "flt", "ver": "0",
+                "data": "0.05"
+            },
+            "acc_extremum_threshold":{ "type": "flt", "ver": "0",
+                "data": "0.1"
+            },
+            "gyro_min_samlpe_count":{ "type": "int", "ver": "1",
+                "data": "60"
+            },
+            "gyro_mean_threshold":{ "type": "flt", "ver": "2",
+                "data": "0.2"
+            },
+            "gyro_var_threshold":{ "type": "flt", "ver": "2",
+                "data": "0.0000025"
+            },
+            "gyro_extremum_threshold":{ "type": "flt", "ver": "0",
+                "data": "0.01"
+            },
+            "temp_min_samlpe_count":{ "type": "int", "ver": "1",
+                "data": "5"
+            },
+            "temp_extremum_threshold":{ "type": "flt", "ver": "0",
+                "data": "1.5"
+            },
+            "over_temp_enable":{ "type": "int", "ver": "0",
+                "data": "1"
+            },
+            "min_temperature_celsius":{ "type": "flt", "ver": "0",
+                "data": "25"
+            }
+        },
+        ".bias":{
+            "owner": "oplus_gyro_cal",
+            "x":{ "type": "flt", "ver": "0",
+                "data": "0.0"
+            },
+            "y":{ "type": "flt", "ver": "0",
+                "data": "0.0"
+            },
+            "z":{ "type": "flt", "ver": "0",
+                "data": "0.0"
+            }
+        },
+        ".sensitivity":{
+            "owner": "oplus_gyro_cal",
+            "x":{ "type": "flt", "ver": "0",
+                "data": "1.0"
+            },
+            "y":{ "type": "flt", "ver": "0",
+                "data": "1.0"
+            },
+            "z":{ "type": "flt", "ver": "0",
+                "data": "1.0"
+            }
+        },
+        ".intercept":{
+            "owner": "oplus_gyro_cal",
+            "x":{ "type": "flt", "ver": "0",
+                "data": "0.0"
+            },
+            "y":{ "type": "flt", "ver": "0",
+                "data": "0.0"
+            },
+            "z":{ "type": "flt", "ver": "0",
+                "data": "0.0"
+            }
+        }
+    }
+}

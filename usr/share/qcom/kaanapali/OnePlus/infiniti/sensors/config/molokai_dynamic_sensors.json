@@ -1,0 +1,37 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+    "platform_family": ["167"]
+  },
+
+  "sns_dynamic_libraries":
+  {
+    "owner": "dynamic_sensor",
+    "detect_on_every_boot":{ "type": "int", "ver": "0",
+        "data": "1"
+    },
+    ".dyn_lib_1":
+    {
+      "owner": "dynamic_sensor",
+      "name":{ "type": "str", "ver": "0", "data": "sns_tppe.so" },
+      "reg_fun":{ "type": "str", "ver": "0", "data": "sns_tppe_register"},
+      "reg_cnt":{ "type": "int", "ver": "0", "data": "1"}
+    },
+    ".dyn_lib_2":
+    {
+      "owner": "dynamic_sensor",
+      "name":{ "type": "str", "ver": "0",
+        "data": "sns_lsm6dsv_normal.so"
+      },
+      "reg_fun":{ "type": "str", "ver": "0",
+        "data": "sns_register_lsm6dsv"
+      },
+      "reg_cnt":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "detected":{ "type": "int", "ver": "0",
+        "data": "0"
+      }
+    }
+  }
+}

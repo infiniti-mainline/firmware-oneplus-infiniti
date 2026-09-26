@@ -1,0 +1,117 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
+    "soc_id": ["660", "661"]
+  },
+  "oplus_shaking_commom":{
+    "owner": "oplus_shaking",
+    ".config":{
+      "owner": "oplus_shaking",
+      "is_available":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "is_sup_s_ois":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "is_sup_tele_ois":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "is_detect_gyro":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "acc_static_length":{ "type": "int", "ver": "0",
+        "data": "100"
+      },
+      "acc_move_threshold":{ "type": "flt", "ver": "0",
+        "data": "0.6"
+      },
+      "acc_move_length":{ "type": "int", "ver": "0",
+        "data": "10"
+      },
+      "ax_max":{ "type": "flt", "ver": "0",
+        "data": "12.0"
+      },
+      "ax_min":{ "type": "flt", "ver": "0",
+        "data": "-12.0"
+      },
+      "ax_delta":{ "type": "flt", "ver": "0",
+        "data": "20"
+      },
+      "ax_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "6"
+      },
+      "ay_max":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "ay_min":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "ay_delta":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "ay_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "az_max":{ "type": "flt", "ver": "0",
+        "data": "12.0"
+      },
+      "az_min":{ "type": "flt", "ver": "0",
+        "data": "-12.0"
+      },
+      "az_delta":{ "type": "flt", "ver": "0",
+        "data": "20"
+      },
+      "az_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "6"
+      },
+      "gx_max":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "gx_min":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "gx_delta":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "gx_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "gy_max":{ "type": "flt", "ver": "0",
+        "data": "12.0"
+      },
+      "gy_min":{ "type": "flt", "ver": "0",
+        "data": "-12.0"
+      },
+      "gy_delta":{ "type": "flt", "ver": "0",
+        "data": "20"
+      },
+      "gy_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "6"
+      },
+      "gz_max":{ "type": "flt", "ver": "0",
+        "data": "12.0"
+      },
+      "gz_min":{ "type": "flt", "ver": "0",
+        "data": "-12.0"
+      },
+      "gz_delta":{ "type": "flt", "ver": "0",
+        "data": "20"
+      },
+      "gz_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "6"
+      },
+      "shaking_cnt":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "static_cnt":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "shaking_timeout":{ "type": "int", "ver": "0",
+        "data": "60"
+      },
+      "shaking_buffer_size":{ "type": "int", "ver": "0",
+        "data": "40"
+      }
+    }
+  }
+}

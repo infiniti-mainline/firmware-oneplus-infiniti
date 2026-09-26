@@ -1,0 +1,15 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
+    "soc_id": ["660", "661"]
+  },
+  "smart_prox":{
+    "owner": "smart_prox",
+    ".config":{
+      "owner": "smart_prox",
+      "is_available":{ "type": "int", "ver": "0",
+        "data": "1"
+      }
+    }
+  }
+}
