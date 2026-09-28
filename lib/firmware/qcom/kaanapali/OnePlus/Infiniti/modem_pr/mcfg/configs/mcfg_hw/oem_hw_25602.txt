@@ -1,0 +1,4 @@
+mcfg_hw/generic/25602/PRET0/26/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/25602/EVT/40/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/25602/EVT2/41/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/25602/DVT/42/CHINA/mcfg_hw.mbn

@@ -1,0 +1,4 @@
+mcfg_hw/generic/25673/PRET0/28/IN/mcfg_hw.mbn
+mcfg_hw/generic/25673/PRET0/29/CE/mcfg_hw.mbn
+mcfg_hw/generic/25673/PRET0/30/FCC/mcfg_hw.mbn
+mcfg_hw/generic/25673/PRET0/31/EU/mcfg_hw.mbn

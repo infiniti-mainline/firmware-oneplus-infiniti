@@ -1,0 +1,2 @@
+mcfg_hw/generic/24776/PRET0/13/EU/mcfg_hw.mbn
+mcfg_hw/generic/24776/PRET0/14/IN/mcfg_hw.mbn

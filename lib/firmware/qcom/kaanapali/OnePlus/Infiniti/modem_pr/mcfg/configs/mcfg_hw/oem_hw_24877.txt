@@ -1,0 +1,11 @@
+mcfg_hw/generic/24877/EVB1/61/IN/mcfg_hw.mbn
+mcfg_hw/generic/24877/EVB1/62/EU/mcfg_hw.mbn
+mcfg_hw/generic/24877/T0/62/EU/mcfg_hw.mbn
+mcfg_hw/generic/24877/T0/63/NA/mcfg_hw.mbn
+mcfg_hw/generic/24877/EVT/64/EU/mcfg_hw.mbn
+mcfg_hw/generic/24877/EVT/65/NA/mcfg_hw.mbn
+mcfg_hw/generic/24877/EVT2/66/NA/mcfg_hw.mbn
+mcfg_hw/generic/24877/DVT/67/EU/mcfg_hw.mbn
+mcfg_hw/generic/24877/DVT/68/NA/mcfg_hw.mbn
+mcfg_hw/generic/24877/EVT/70/IN/mcfg_hw.mbn
+mcfg_hw/generic/24877/DVT/74/IN/mcfg_hw.mbn

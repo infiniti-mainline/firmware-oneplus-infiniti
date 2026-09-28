@@ -1,0 +1,2 @@
+mcfg_hw/generic/25871/T0/51/IN/mcfg_hw.mbn
+mcfg_hw/generic/25871/EVT/53/IN/mcfg_hw.mbn

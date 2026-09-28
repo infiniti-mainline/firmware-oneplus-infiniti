@@ -1,0 +1,1 @@
+mcfg_hw/generic/25709/PRET0/27/IN/mcfg_hw.mbn

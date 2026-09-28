@@ -1,0 +1,7 @@
+mcfg_hw/generic/24831/EVB1/1/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/24831/EVB2/1/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/24831/PRET0/0/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/24831/T0/6/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/24831/EVT/8/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/24831/DVT/15/CHINA/mcfg_hw.mbn
+mcfg_hw/generic/24831/PVT/19/CHINA/mcfg_hw.mbn
